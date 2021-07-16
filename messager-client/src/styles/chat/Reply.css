@@ -1,0 +1,20 @@
+.reply {
+  border-right: 1px solid var(--dark);
+  border-left: 1px solid var(--dark);
+  border-bottom: 1px solid var(--dark);
+  width: 300px;
+  padding: calc(var(--gutter) / 2) var(--gutter);
+}
+
+.reply__reactions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reply__like,
+.reply__dislike,
+.reply__reply {
+  padding: calc(var(--gutter) / 4);
+  background: #fff;
+  border: 1px solid var(--dark);
+}

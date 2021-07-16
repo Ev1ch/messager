@@ -1,0 +1,9 @@
+.message-block {
+  flex-direction: column;
+  display: flex;
+}
+
+.own-message-block {
+  align-self: flex-end;
+  align-items: flex-end;
+}

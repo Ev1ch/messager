@@ -1,0 +1,7 @@
+#endpoint: ''
+endpoint: https://eu1.prisma.sh/vlad-zusko-656158/messager-server/dev
+
+datamodel: datamodel.prisma
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client

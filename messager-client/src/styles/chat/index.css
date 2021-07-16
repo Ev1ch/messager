@@ -1,0 +1,7 @@
+.chat {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  grid-template-rows: 10% 60% 30%;
+  display: grid;
+}

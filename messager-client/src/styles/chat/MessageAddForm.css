@@ -1,0 +1,32 @@
+.message-add-form {
+  height: 100%;
+  padding: var(--gutter);
+  gap: var(--gutter);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--dark);
+}
+
+.message-add-form__input {
+  border: 1px solid var(--dark);
+  padding: var(--gutter);
+  width: 100%;
+  outline: none;
+}
+
+.message-add-form__button {
+  transition: var(--base-time);
+  width: 100px;
+  background: var(--dark);
+  border: none;
+  padding: calc(var(--gutter) / 2) var(--gutter);
+  border: 1px solid var(--dark);
+  color: #fff;
+}
+
+.message-add-form__button:hover {
+  background: #fff;
+  color: var(--dark);
+}

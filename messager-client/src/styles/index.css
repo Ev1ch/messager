@@ -1,0 +1,20 @@
+@import url('./normalize.css');
+
+:root {
+  --gutter: 20px;
+  --dark: #000;
+  --base-time: 0.3s;
+  --base-font: sans-serif;
+}
+
+* {
+  font-family: var(--base-font);
+  box-sizing: border-box;
+}
+
+button {
+  padding: calc(var(--gutter) / 4);
+  background: #fff;
+  border: 1px solid var(--dark);
+  cursor: pointer;
+}

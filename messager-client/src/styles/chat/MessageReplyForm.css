@@ -1,0 +1,17 @@
+.message-reply-form {
+  width: 300px;
+  display: flex;
+  padding: var(--gutter);
+  gap: calc(var(--gutter) / 2);
+  align-items: center;
+  border-bottom: 1px solid var(--dark);
+  border-left: 1px solid var(--dark);
+  border-right: 1px solid var(--dark);
+}
+
+.message-reply-form__input {
+  padding: var(--gutter);
+  height: 120px;
+  border: 1px solid var(--dark);
+  outline: none;
+}

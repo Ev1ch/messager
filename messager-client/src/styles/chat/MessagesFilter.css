@@ -1,0 +1,19 @@
+.messages-filter {
+  height: 100%;
+  padding: var(--gutter);
+  gap: var(--gutter);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid var(--dark);
+  border-right: 1px solid var(--dark);
+  border-top: 1px solid var(--dark);
+}
+
+.messages-filter__input,
+.messages-filter__select {
+  border: 1px solid var(--dark);
+  padding: calc(var(--gutter) / 4);
+  flex: 1;
+  outline: none;
+}

@@ -1,0 +1,16 @@
+.messages-list {
+  height: 100%;
+  padding: var(--gutter);
+  border-top: 1px solid var(--dark);
+  border-left: 1px solid var(--dark);
+  border-right: 1px solid var(--dark);
+  display: flex;
+  gap: calc(var(--gutter) * 2);
+  align-items: flex-start;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.messages-list__button {
+  align-self: center;
+}

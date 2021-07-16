@@ -1,0 +1,19 @@
+.message,
+.own-message {
+  width: 400px;
+  padding: calc(var(--gutter) / 2) var(--gutter);
+  border-bottom: 1px solid var(--dark);
+}
+
+.message__reactions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message__like,
+.message__dislike,
+.message__reply {
+  padding: calc(var(--gutter) / 4);
+  background: #fff;
+  border: 1px solid var(--dark);
+}

@@ -1,0 +1,30 @@
+type Message {
+  id: ID! @id
+  userId: ID!
+  type: PostObjectType!
+  text: String!
+  likes: [ID!]! @scalarList(strategy: RELATION)
+  likesNumber: Int!
+  dislikes: [ID!]! @scalarList(strategy: RELATION)
+  dislikesNumber: Int!
+  replies: [Reply!]!
+  createdAt: DateTime! @createdAt
+}
+
+type Reply {
+  id: ID! @id
+  userId: ID!
+  type: PostObjectType!
+  text: String!
+  likes: [ID!]! @scalarList(strategy: RELATION)
+  likesNumber: Int!
+  dislikes: [ID!]! @scalarList(strategy: RELATION)
+  dislikesNumber: Int!
+  message: Message!
+  createdAt: DateTime! @createdAt
+}
+
+enum PostObjectType {
+  Message
+  Reply
+}
